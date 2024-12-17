@@ -100,13 +100,19 @@ body {
 
 
 .welcome{
-    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 150px;
+    margin: 0 auto;
 }
 
 .welcome h3 {
     font-family: 'Fira Code', serif;
     font-size: 2rem;
     color: black;
+
 }
 
 .welcome h1 {
@@ -116,6 +122,7 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    text-align: start;
 }
 
 .gradient-text{
